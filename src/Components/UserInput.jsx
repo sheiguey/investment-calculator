@@ -20,7 +20,7 @@ export default function UserInput({onChangeInput,userInputs}){
              </p>
              <p>
                 <label>Duration</label>
-                <input type="number" value={userInputs.duration} onChange={(e)=>handleChange('duration',e.target.value)} required/>
+                <input type="number" value={userInputs.duration} onChange={(e)=>onChangeInput('duration',e.target.value)} required/>
              </p>
            </div>
         </section>

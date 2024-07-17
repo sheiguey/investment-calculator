@@ -12,7 +12,7 @@ function App() {
     duration:10
 });
 
-const inputIsValid =duration>=1;
+const inputIsValid =userInput.duration>=1;
 
 function handleChange(indentifierName,newValue){
     setUserInput(prevUserInput=>{
